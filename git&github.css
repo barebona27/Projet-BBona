@@ -1,0 +1,42 @@
+
+
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .cv-header {
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .cv-section {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        color: #007bff;
+    }
+
+    .card-subtitle {
+        color: #6c757d;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #495057;
+    }
+
